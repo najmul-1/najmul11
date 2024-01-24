@@ -1,0 +1,185 @@
+
+
+.slide-content{
+    width: 45%;
+    height: auto;
+    bottom: 30px;
+    right:30px;
+    background: black;
+    z-index: 11111111111;
+    position: absolute;
+    border-radius: 16px;
+}
+.slide-content1{
+    width: 100%;
+    height: auto;
+    top: 400px;
+    left: 0;
+    right:0;
+}
+
+.slide-img{
+    height: 550px;
+}
+@media screen and (max-width:576px) {
+    .slide-content{
+        width: 100%;
+        height: auto;
+        top: 0;
+        left: 0;
+        right:0;
+        z-index: 88888;
+    }
+    .slide-img{
+        height: 250px !important;
+     }
+
+}
+Write to J.I. Jahid
+
+.cat{
+    height: 420px !important; 
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border-radius: 16px;
+    width: 60%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+
+.cat div{
+    width: 60%;
+    position: absolute;
+    height: auto;
+    background-color: black;
+    bottom: 80px;
+    right: 25px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: #FFF;
+
+}
+
+.cat div h1 {
+    color: #FFF;
+
+}
+
+
+
+
+
+
+
+
+
+main{
+    max-width: 1170px;
+    height: auto;
+    margin: 0 auto;
+
+}
+#valu{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+.valu-content{
+    width: 85%;
+}
+
+.valu-content h1{
+    color: black;
+    font-size: 40px;
+    padding: 40px 0;
+    font-weight: 800;
+    text-align: center;
+}
+.valu-content p{
+    color: #4f4f52;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+
+.pogram-div1{
+    background:url(Images/2.png)
+}
+
+.pogram-div2{
+    background:url(Images/3.png)
+}
+
+.pogram-div3{
+    background:url(Images/4.png)
+}
+
+
+.nnn {
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.nnn h1{
+    font-size: 40px;
+    font-style: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    
+}
+
+
+
+
+
+/*form section*/
+form input{
+    background: #13131808
+    ;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    background: #13131808
+    ;
+    border-radius: 16px;
+}
+
+
+.container>div{
+    width: 230px;
+    height: auto;
+    margin: 30px;
+}
+
+@media screen and (max-width:640px) {
+    .container> div{
+         text-align: center;
+         margin: 10px;
+    }
+   .container .f-1{
+    width: 200px;
+   }
+   .container .f-2{
+    width: 200px;
+   }
+}
+
